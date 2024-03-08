@@ -1,0 +1,212 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: calc(100% - 180px);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .grid {
+        gap: 20px;
+    }
+
+    .homeData {
+        padding-right: 40px;
+    }
+
+    .homeTitle {
+        font-size: var(--big);
+    }
+
+    .homeDescription {
+        font-size: var(--small);
+    }
+
+    .statsTitle {
+        padding-left: 35px;
+    }
+
+    .statsTitle::before {
+        width: 22px;
+    }
+
+    .resumeIcon {
+        width: 36px;
+        height: 36px;
+        line-height: 38px;
+    }
+
+    .resumeItem {
+        padding-left: 55px;
+    }
+
+    .formInput-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .formInput-group .formInput-div:last-child {
+        grid-column: 1/-1;
+    }
+
+    .formInput-div {
+        margin-bottom: 24px;
+    }
+
+    .projectModel-content {
+        max-width: 600px;
+    }
+
+    .modelClose {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .home {
+        padding: 20px;
+        grid-template-columns: 5fr 7fr;
+    }
+
+    .homeData {
+        padding-right: 0;
+    }
+
+    .section {
+        padding-block: 50px;
+    }
+
+    .sectionTitle {
+        margin-bottom: 40px;
+    }
+
+    .aboutContainer, .resumeContainer, .contactContainer {
+        grid-template-columns: 1fr;
+        row-gap: 45px;
+    }
+
+    .centre {
+        margin-bottom: 45px;
+    }
+
+    .projectImg {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 10px;
+    }
+    .colorBlock {
+        display: none;
+    }
+
+    .homeImg {
+       width: 270px;
+       height: 270px;
+       border-radius: 50%; 
+       margin: auto;
+    }
+
+    .homeTitle {
+        padding-left: 0;
+    }
+    .homeContent {
+        max-width: 500px;
+        text-align: center;
+        margin-bottom: auto;
+    }
+    .container {
+        max-width: 540px;
+    }
+
+    .projectContainer{
+        grid-template-columns: 1fr
+    }
+
+    .projectModel-content {
+        padding: 25px 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navToggle {
+        top: 20px;
+        right: 15px;
+    }
+
+    .navLink {
+        column-gap: 20px;
+    }
+
+    .navIcon, .navName {
+        font-size: var(--h3);
+    }
+
+    .formInput-group, .modelList{
+        grid-template-columns: 1fr;
+    } 
+
+    .modelImg {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 458px) {
+    .popUp{
+        width: 300px;
+    }
+    .homeImg{
+        display: none;
+    }
+    .homeContent {
+        margin-block: auto;
+        text-align: left;
+    }
+    .homeTitle {
+        font-size: var(--h1);
+    }
+    .homeDescription{
+        text-align: justify;
+    }
+
+    .infoTitle {
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .statsBox {
+        padding: 15px 15px 25px 20px;
+    }
+
+    .skillsContainer {
+        display: block;
+    }
+
+    .skillsItem {
+        margin: 30px;
+    }
+
+    .modelImg {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .popUp{
+        width: 260px;
+    }
+    .homeTitle span {
+        display: inline;
+    }
+    .stats {
+        grid-template-columns: 1fr;
+    }
+}

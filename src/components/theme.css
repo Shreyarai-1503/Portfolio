@@ -1,0 +1,13 @@
+.themeSwitcher {
+    position: fixed;
+    left: 0;
+    top: 6%;
+    background-color: white;
+    color: hsl(0, 0%, 33%);
+    font-weight: 600;
+    z-index: 1;
+    border-radius: 0 10px 10px 0;
+    padding: var(--small);
+    box-shadow: 0 0 4px hsl(0, 0%, 33%);
+    opacity: 0.8;
+}

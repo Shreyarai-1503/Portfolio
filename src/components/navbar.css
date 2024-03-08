@@ -1,0 +1,137 @@
+.navMenu {
+    background-color: var(--color1);
+    position: fixed;
+    z-index: 10;
+    inset-block: 0;
+    left: -100%;
+    background-color: var(--container-color);
+    width: 100%;
+    padding: 60px 30px;
+    transition: all 0.7s cubic-bezier(0.75, 0.2, 0.05, 1);
+    opacity: 0.9;
+}
+
+.showMenu {
+    left: 0;
+}
+
+.navLink{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    border-bottom: 1px solid var(--border-color);
+    padding-block: 14px;
+}
+
+.navIcon, .navName{
+    color: var(--title-color);
+    font-size: 22px;
+}
+.navName{
+    font-weight: 500;
+}
+.activeNav .navIcon, .activeNav .navName{
+    color: var(--color1);
+}
+
+.navToggle {
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--container-color);
+}
+
+.navToggle span{
+    display: block;
+    width: 20px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: var(--title-color);
+    margin-bottom: 5px;
+}
+
+.animateToggle span:first-child {
+    transform: rotate(45deg) translate(6px, 4px);
+}
+
+.animateToggle span:nth-child(2) {
+    display: none;
+}
+.animateToggle span:last-child {
+    transform: rotate(-45deg) translate(2px, 0.5px);
+}
+
+
+@media screen and (min-width: 1024px){
+    .navMenu{
+        all: unset;
+    }
+
+    .navToggle{
+        display: none;
+    }
+
+    .nav {
+        position: fixed;
+        inset-block: 0;
+        right: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navItem {
+        margin-block: 20px;
+    }
+
+    .navLink {
+        padding: 0;
+        border-bottom: none;
+        background-color: var(--container-color);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .navLink:hover, .activeNav{
+        background-color: var(--color1);
+    }
+
+    .navLink:hover .navIcon, .activeNav .navIcon{
+        color: var(--text-white);
+    }
+    
+    .navLink:hover .navName{
+        right: 27px;
+        color: var(--text-white);
+        opacity: 1;
+        visibility: visible;
+        border-radius: 30px 0 0 30px;
+    }
+
+    .navIcon{
+        font-size: 20px;
+        margin-inline: auto;
+    }
+    .navName{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: var(--color1);
+        height: 100%;
+        line-height: 50px;
+        padding-inline: 25px 25px;
+        border-radius: 30px;
+        font-size: var(--small);
+        color: var(--text-white);
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+        transition: all 0.3s ease;
+    }
+}
