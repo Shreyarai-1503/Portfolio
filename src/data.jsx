@@ -14,6 +14,7 @@ import CSS from "./assets/CSS.png";
 import JS from "./assets/JS.png";
 import React from "./assets/React.png";
 import NodeJs from "./assets/NodeJs.png";
+import Express from "./assets/Express.png";
 import JAVA from "./assets/JAVA.png";
 import Python from "./assets/Python.png";
 
@@ -92,8 +93,8 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "1+",
-    title: "Years of <br /> Experience",
+    no: "1",
+    title: "Year of <br /> Experience",
   },
 
   {
@@ -187,25 +188,32 @@ export const skills = [
     path: NodeJs,
   },
 
+  {
+    id: 8,
+    title: "Express Js",
+    path: Express,
+  },
+  
 ];
 
 export const project = [
   {
     id: 1,
     img: Work1,
-    title: "Admin Dashboard",
+    title: "ArticleEase",
     details: [
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "React JS",
+        desc: "ReactJS, RapidAPI",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "ArticleEase.com",
       },
     ],
+    link: "https://ai-summarizer-shreyarai-1503s-projects.vercel.app/"
   },
 
   {
