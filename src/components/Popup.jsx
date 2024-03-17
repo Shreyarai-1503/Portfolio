@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import "./popup.css";
 
@@ -15,9 +16,9 @@ const Popup = ({ trigger }) => {
         </div>
         <h2>Thank you!</h2>
         <h4>Your message is sent successfully</h4>
-        <button className="close" onClick={refreshPage}>
+        <Link to="/" className="close">
           Close
-        </button>
+        </Link>
       </div>
     )
   );
