@@ -1,23 +1,33 @@
-import { FaEnvelopeOpen, FaPhoneSquareAlt, FaLinkedin, FaGithub } from "react-icons/fa";
+import {
+  FaEnvelopeOpen,
+  FaPhoneSquareAlt,
+  FaLinkedin,
+  FaGithub,
+} from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import { useRef, useState } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import Popup from "../../components/Popup";
 import "./contact.css";
 
 const Contact = () => {
   const form = useRef();
-  const [popup, setPopup] = useState(false)
+  const [popup, setPopup] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_j0bz5er', 'template_v0wmy1r', form.current, 'nbROO-CKfFM8bGNoH')
+    emailjs
+      .sendForm(
+        "service_j0bz5er",
+        "template_v0wmy1r",
+        form.current,
+        "nbROO-CKfFM8bGNoH"
+      )
       .then((result) => {
-          console.log(result.text);
-          setPopup(true);
+        console.log(result.text);
+        setPopup(true);
       });
   };
-
 
   return (
     <section className="contact section">
@@ -47,11 +57,12 @@ const Contact = () => {
             </div>
 
             <div className="infoItem">
-            <div className="infoIcon">
-              <FaPhoneSquareAlt />
-            </div>
+              <div className="infoIcon">
+                <FaPhoneSquareAlt />
+              </div>
               <div>
-                <span className="infoTitle">Call Me</span><br />
+                <span className="infoTitle">Call Me</span>
+                <br />
                 <span className="infoDesc">+91 7387372955</span>
               </div>
             </div>
@@ -65,7 +76,10 @@ const Contact = () => {
               <FaLinkedin />
             </a>
 
-            <a href="https://github.com/Shreyarai-1503" className="contactLinks">
+            <a
+              href="https://github.com/Shreyarai-1503"
+              className="contactLinks"
+            >
               <FaGithub />
             </a>
           </div>
@@ -116,7 +130,7 @@ const Contact = () => {
             </span>
           </button>
         </form>
-        <Popup trigger = {popup}/>
+        {popup && <Popup trigger={setPopup} />}
       </div>
     </section>
   );
