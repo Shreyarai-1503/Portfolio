@@ -4,6 +4,7 @@ import "./popup.css";
 const Popup = ({ trigger }) => {
   const refreshPage = () => {
     window.location.reload(false);
+    trigger = false;
   };
 
   return (
