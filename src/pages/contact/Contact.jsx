@@ -26,6 +26,7 @@ const Contact = () => {
       .then((result) => {
         console.log(result.text);
         setPopup(true);
+        form.current.reset();
       });
   };
 
