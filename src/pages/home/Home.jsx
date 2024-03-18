@@ -17,7 +17,7 @@ const Home = () => {
 
           <p className="homeDesciption">
             Enthusiastic and innovative developer with a strong foundation in
-            coding and a passion for problem-solving ready to bring fresh
+            coding and a passion for problem-solving, ready to bring fresh
             perspectives to the ever-evolving world of Web development.
           </p>
 

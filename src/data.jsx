@@ -127,21 +127,21 @@ export const resume = [
   },*/
 
   {
-    id: 2,
+    id: 1,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2022 - present",
     title: "B.E Computer engineering <span>Pimpri Chinchwad College of Engineering and Research </span>",
-    desc: "University Topper in Engg. Math-1. Current CGPA: 9.3",
+    desc: "University Topper:Engg. Math-1. CGPA: 9.3",
   },
 
   {
-    id: 3,
+    id: 2,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2022",
     title: "12th-grade (AISSCE) <span>GG International School </span>",
-    desc: "Completed 12th grade with 95.2% grade.",
+    desc: "Completed 12th with 95.2%",
   },
 ];
 

@@ -72,6 +72,7 @@ const Contact = () => {
           <div className="contactSocials">
             <a
               href="https://www.linkedin.com/in/shreya-rai5"
+              target="_blank"
               className="contactLinks"
             >
               <FaLinkedin />
@@ -79,6 +80,7 @@ const Contact = () => {
 
             <a
               href="https://github.com/Shreyarai-1503"
+              target="_blank"
               className="contactLinks"
             >
               <FaGithub />
