@@ -12,14 +12,15 @@ import { FiExternalLink } from "react-icons/fi";
 import HTML from "./assets/HTML.png";
 import CSS from "./assets/CSS.png";
 import JS from "./assets/JS.png";
-import React from "./assets/React.png";
-import NodeJs from "./assets/NodeJs.png";
-import Express from "./assets/Express.png";
+import TS from "./assets/TS.png";
+import MERN from "./assets/MERN.png";
+import NEXT from "./assets/NEXTJS.png";
 import JAVA from "./assets/JAVA.png";
 import Python from "./assets/Python.png";
 
 import Work1 from "./assets/Work1.png";
 import Work2 from "./assets/Work2.png";
+import Work3 from "./assets/Work3.png";
 
 export const links = [
   {
@@ -99,7 +100,7 @@ export const stats = [
 
   {
     id: 2,
-    no: "2",
+    no: "3",
     title: "Completed <br /> Projects",
   },
 
@@ -117,14 +118,14 @@ export const stats = [
 ];
 
 export const resume = [
-  /*{
+  {
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2024 - PRESENT",
-    title: "Web Developer <span>Company</span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
-  },*/
+    year: "July 2024 - PRESENT",
+    title: "SDE Intern <span>Bluestock</span>",
+    desc: "As an SDE Intern and team leader at Bluestock, I lead a group of 5 in developing an IPO Web Application & REST API. I oversee the creation of a user-friendly interface and robust backend functionalities.",
+  },
 
   {
     id: 1,
@@ -154,20 +155,20 @@ export const skills = [
 
   {
     id: 2,
+    title: "Python",
+    path: Python,
+  },
+
+  {
+    id: 3,
     title: "HTML",
     path: HTML,
   },
 
   {
-    id: 3,
+    id: 4,
     title: "CSS",
     path: CSS,
-  },
-
-  {
-    id: 4,
-    title: "Python",
-    path: Python,
   },
 
   {
@@ -178,20 +179,20 @@ export const skills = [
 
   {
     id: 6,
-    title: "React",
-    path: React,
+    title: "Typescript",
+    path: TS,
   },
 
   {
     id: 7,
-    title: "Node Js",
-    path: NodeJs,
+    title: "MERN Stack",
+    path: MERN,
   },
 
   {
     id: 8,
-    title: "Express Js",
-    path: Express,
+    title: "Next.js",
+    path: NEXT,
   },
   
 ];
@@ -200,20 +201,20 @@ export const project = [
   {
     id: 1,
     img: Work1,
-    title: "ArticleEase",
+    title: "PixelGenie",
     details: [
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "ReactJS, RapidAPI",
+        title: "Teck Stack : ",
+        desc: "Next.js, TypeScript, TailwindCSS, Shadcn, MongoDB, Clerk, Cloudinary, Stripe",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "ArticleEase.com",
+        desc: "PixelGenie.com",
       },
     ],
-    link: "https://ai-summarizer-shreyarai-1503s-projects.vercel.app/"
+    link: "https://pixel-genie-kappa.vercel.app/"
   },
 
   {
@@ -233,6 +234,25 @@ export const project = [
       },
     ],
     link: "https://webchatconnect.onrender.com/"
+  },
+
+  {
+    id: 3,
+    img: Work3,
+    title: "ArticleEase",
+    details: [
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "ReactJS, RapidAPI",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "ArticleEase.com",
+      },
+    ],
+    link: "https://ai-summarizer-shreyarai-1503s-projects.vercel.app/"
   },
 
 ];
