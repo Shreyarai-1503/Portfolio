@@ -118,14 +118,14 @@ export const stats = [
 ];
 
 export const resume = [
-  {
-    id: 1,
-    category: "experience",
-    icon: <FaBriefcase />,
-    year: "July 2024 - PRESENT",
-    title: "SDE Intern <span>Bluestock</span>",
-    desc: "As an SDE Intern and team leader at Bluestock, I lead a group of 5 in developing an IPO Web Application & REST API. I oversee the creation of a user-friendly interface and robust backend functionalities.",
-  },
+  // {
+  //   id: 1,
+  //   category: "experience",
+  //   icon: <FaBriefcase />,
+  //   year: "July 2024 - PRESENT",
+  //   title: "SDE Intern <span>Bluestock</span>",
+  //   desc: "As an SDE Intern and team leader at Bluestock, I lead a group of 5 in developing an IPO Web Application & REST API. I oversee the creation of a user-friendly interface and robust backend functionalities.",
+  // },
 
   {
     id: 1,
