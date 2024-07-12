@@ -4,6 +4,7 @@ import {
   FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { FiSend } from "react-icons/fi";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
@@ -84,6 +85,14 @@ const Contact = () => {
               className="contactLinks"
             >
               <FaGithub />
+            </a>
+
+            <a
+              href="https://leetcode.com/u/shreyarai1503/"
+              target="_blank"
+              className="contactLinks"
+            >
+              <SiLeetcode />
             </a>
           </div>
         </div>
