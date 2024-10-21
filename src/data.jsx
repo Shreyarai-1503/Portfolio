@@ -161,26 +161,26 @@ export const skills = [
 
   {
     id: 3,
-    title: "HTML",
-    path: HTML,
-  },
-
-  {
-    id: 4,
-    title: "CSS",
-    path: CSS,
-  },
-
-  {
-    id: 5,
     title: "Javascript",
     path: JS,
   },
 
   {
-    id: 6,
+    id: 4,
     title: "Typescript",
     path: TS,
+  },
+
+  {
+    id: 5,
+    title: "HTML",
+    path: HTML,
+  },
+
+  {
+    id: 6,
+    title: "CSS",
+    path: CSS,
   },
 
   {
