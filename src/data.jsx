@@ -9,14 +9,18 @@ import {
 } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
-import HTML from "./assets/HTML.png";
-import CSS from "./assets/CSS.png";
-import JS from "./assets/JS.png";
-import TS from "./assets/TS.png";
+import JAVA from "./assets/java.svg";
+import Python from "./assets/python.svg";
+import Cpp from "./assets/cpp.svg";
+import JS from "./assets/js.svg";
+import TS from "./assets/ts.svg";
+import HTML from "./assets/html.svg";
+import CSS from "./assets/css.svg";
 import MERN from "./assets/MERN.png";
-import NEXT from "./assets/NEXTJS.png";
-import JAVA from "./assets/JAVA.png";
-import Python from "./assets/Python.png";
+import NEXT from "./assets/nextjs.svg";
+import MySQL from "./assets/mysql.svg";
+import Postgresql from "./assets/postgresql.svg";
+import Graphql from "./assets/graphql.svg";
 
 import Work1 from "./assets/Work1.png";
 import Work2 from "./assets/Work2.png";
@@ -124,7 +128,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: "Jul 2024 - Aug 2024",
     title: "SDE Intern <span>Bluestock</span>",
-    desc: "As an SDE Intern and team leader at Bluestock, I led the development of an IPO web app and REST API using Django, PostgreSQL, HTML, CSS, JavaScript, and Bootstrap, focusing on code quality and security.",
+    desc: "As an SDE Intern and team leader at Bluestock, led the development of an IPO web app and REST APIs using Django, PostgreSQL, HTML, CSS, JavaScript, and Bootstrap, focusing on code quality and security.",
   },
 
   {
@@ -161,38 +165,62 @@ export const skills = [
 
   {
     id: 3,
+    title: "C++",
+    path: Cpp,
+  },
+
+  {
+    id: 4,
     title: "Javascript",
     path: JS,
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Typescript",
     path: TS,
   },
 
   {
-    id: 5,
+    id: 6,
     title: "HTML",
     path: HTML,
   },
 
   {
-    id: 6,
+    id: 7,
     title: "CSS",
     path: CSS,
   },
 
   {
-    id: 7,
+    id: 8,
     title: "MERN Stack",
     path: MERN,
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Next.js",
     path: NEXT,
+  },
+
+  {
+    id: 10,
+    title: "MySQL",
+    path: MySQL,
+  },
+
+  {
+    id: 11,
+    title: "PostgreSQL",
+    path: Postgresql,
+  },
+
+  {
+    id: 12,
+    title: "GraphQL",
+    path: Graphql,
   },
   
 ];
@@ -206,7 +234,7 @@ export const project = [
       {
         icon: <FaCode />,
         title: "Teck Stack : ",
-        desc: "Next.js, TypeScript, TailwindCSS, Shadcn, MongoDB, Clerk, Cloudinary, Stripe",
+        desc: "Next.js, TypeScript, Tailwind CSS, Shadcn, MongoDB, Clerk, Cloudinary, Stripe",
       },
       {
         icon: <FiExternalLink />,
@@ -244,7 +272,7 @@ export const project = [
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "ReactJS, RapidAPI",
+        desc: "React.js, Rapid API",
       },
       {
         icon: <FiExternalLink />,
