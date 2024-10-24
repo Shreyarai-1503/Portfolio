@@ -123,12 +123,21 @@ export const stats = [
 
 export const resume = [
   {
-    id: 1,
+    "id": 1,
+    "category": "experience",
+    "icon": <FaBriefcase />,
+    "year": "Aug 2024 - Oct 2024",
+    "title": "Frontend Developer Intern <span>Pylon Labs</span>",
+    "desc": "Built responsive UIs with React and JavaScript, improving user experience and engagement. Led the product page redesign and resolved critical bugs to enhance performance."
+  },
+
+  {
+    id: 2,
     category: "experience",
     icon: <FaBriefcase />,
     year: "Jul 2024 - Aug 2024",
     title: "SDE Intern <span>Bluestock</span>",
-    desc: "As an SDE Intern and team leader at Bluestock, led the development of an IPO web app and REST APIs using Django, PostgreSQL, HTML, CSS, JavaScript, and Bootstrap, focusing on code quality and security.",
+    desc: "As an SDE Intern and team leader at Bluestock, led the development of an IPO web app and REST API using Django, PostgreSQL, HTML, CSS, JavaScript, and Bootstrap, focusing on code quality and security.",
   },
 
   {
