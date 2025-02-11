@@ -14,17 +14,18 @@ import Python from "./assets/python.svg";
 import Cpp from "./assets/cpp.svg";
 import JS from "./assets/js.svg";
 import TS from "./assets/ts.svg";
-import HTML from "./assets/html.svg";
-import CSS from "./assets/css.svg";
 import MERN from "./assets/MERN.png";
 import NEXT from "./assets/nextjs.svg";
 import MySQL from "./assets/mysql.svg";
 import Postgresql from "./assets/postgresql.svg";
-import Graphql from "./assets/graphql.svg";
+import Pandas from "./assets/pandas.svg";
+import Numpy from "./assets/numpy.svg";
+import Matplotlib from "./assets/matplotlib.svg";
 
 import Work1 from "./assets/Work1.png";
 import Work2 from "./assets/Work2.png";
 import Work3 from "./assets/Work3.png";
+import Work4 from "./assets/Work4.png";
 
 export const links = [
   {
@@ -72,7 +73,7 @@ export const personalInfo = [
   {
     id: 3,
     title: "Age : ",
-    description: "19 Years",
+    description: "20 Years",
   },
 
   {
@@ -104,7 +105,7 @@ export const stats = [
 
   {
     id: 2,
-    no: "3",
+    no: "4",
     title: "Completed <br /> Projects",
   },
 
@@ -123,12 +124,12 @@ export const stats = [
 
 export const resume = [
   {
-    "id": 1,
-    "category": "experience",
-    "icon": <FaBriefcase />,
-    "year": "Aug 2024 - Oct 2024",
-    "title": "Frontend Developer Intern <span>Pylon Labs</span>",
-    "desc": "Built responsive UIs with React and JavaScript, improving user experience and engagement. Led the product page redesign and resolved critical bugs to enhance performance."
+    id: 1,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "Aug 2024 - Feb 2025",
+    title: "Software Developer Intern <span>Pylon Labs</span>",
+    desc: "Led the development of a real-time collaborative document editor. Optimized the product page UX, boosting engagement. Tech: Next.js, Liveblocks, Quill, Convex, Tailwind CSS."
   },
 
   {
@@ -136,8 +137,8 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "Jul 2024 - Aug 2024",
-    title: "SDE Intern <span>Bluestock</span>",
-    desc: "As an SDE Intern and team leader at Bluestock, led the development of an IPO web app and REST API using Django, PostgreSQL, HTML, CSS, JavaScript, and Bootstrap, focusing on code quality and security.",
+    title: "Software Developer Intern <span>Bluestock</span>",
+    desc: "Built a real-time IPO Web App and REST API. Designed a responsive UI for seamless cross-device experience. Tech: HTML, CSS, JavaScript, Bootstrap, REST API, Python.",
   },
 
   {
@@ -146,7 +147,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: "2022 - present",
     title: "B.E Computer engineering <span>Pimpri Chinchwad College of Engineering and Research </span>",
-    desc: "University Topper:Engg. Math-1. CGPA: 9.3",
+    desc: "University Topper:Engg. Math-1. CGPA: 9.2",
   },
 
   {
@@ -180,56 +181,56 @@ export const skills = [
 
   {
     id: 4,
-    title: "Javascript",
+    title: "JavaScript",
     path: JS,
   },
 
   {
     id: 5,
-    title: "Typescript",
+    title: "TypeScript",
     path: TS,
   },
 
   {
     id: 6,
-    title: "HTML",
-    path: HTML,
-  },
-
-  {
-    id: 7,
-    title: "CSS",
-    path: CSS,
-  },
-
-  {
-    id: 8,
     title: "MERN Stack",
     path: MERN,
   },
 
   {
-    id: 9,
+    id: 7,
     title: "Next.js",
     path: NEXT,
   },
 
   {
-    id: 10,
+    id: 8,
     title: "MySQL",
     path: MySQL,
   },
 
   {
-    id: 11,
+    id: 9,
     title: "PostgreSQL",
     path: Postgresql,
   },
 
   {
+    id: 10,
+    title: "Pandas",
+    path: Pandas,
+  },
+
+  {
+    id: 11,
+    title: "Numpy",
+    path: Numpy,
+  },
+
+  {
     id: 12,
-    title: "GraphQL",
-    path: Graphql,
+    title: "Matplotlib",
+    path: Matplotlib,
   },
   
 ];
@@ -280,7 +281,7 @@ export const project = [
     details: [
       {
         icon: <FaCode />,
-        title: "Language : ",
+        title: "Teck Stack : ",
         desc: "React.js, Rapid API",
       },
       {
@@ -292,4 +293,22 @@ export const project = [
     link: "https://ai-summarizer-shreyarai-1503s-projects.vercel.app/"
   },
 
+  {
+    id: 4,
+    img: Work4,
+    title: "Coffee Shop Sale Analysis",
+    details: [
+      {
+        icon: <FaCode />,
+        title: "Teck Stack : ",
+        desc: "Excel (Advanced Functions, Pivot Tables, Data Visualization)",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "GitHub",
+      },
+    ],
+    link: "https://github.com/Shreyarai-1503/Coffee-Shop-Sales"
+  },
 ];
